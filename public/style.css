@@ -1,0 +1,99 @@
+body {
+    height: 100%;
+    background-color: black;
+}
+
+@keyframes text{
+      33% {
+        text-shadow: 0 60px #ff0000, 0 150px #ff9900;
+      }
+      50% {
+        transform: translate(0, 0) rotate(360deg);
+        text-shadow: 0 0px #fbff00, 0 0px #57da00;
+      }
+      66.67% {
+        text-shadow: 0 -60px #0011ff, 0 150px #ff02c8;
+      }
+}
+
+#text{
+    position: absolute;
+    left: 46vw;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: white;
+    text-decoration: underline;
+    animation-name: text;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+#red{
+    background-color: red;
+    outline: rgb(0, 0, 0) solid 5px;
+}
+
+#orange{
+    background-color: orange;
+    outline: rgb(0, 0, 0) solid 5px;
+}
+
+#yellow{
+    background-color: yellow;
+    outline: rgb(0, 0, 0) solid 5px;
+}
+
+#green{
+    background-color: green;
+    outline: rgb(0, 0, 0) solid 5px;
+}
+
+#blue{
+    background-color: blue;
+    outline: rgb(0, 0, 0) solid 5px;
+}
+
+#violet{
+    background-color: violet;
+    outline: rgb(0, 0, 0) solid 5px;
+}
+
+#black{
+    background-color: black;
+    outline: rgb(0, 0, 0) solid 5px;
+}
+
+#white{
+    background-color: white;
+    outline: rgb(0, 0, 0) solid 5px;
+}
+
+#yt{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    outline: rgb(0, 0, 0) solid 5px;
+}
+
+#video{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    outline: rgb(0, 0, 0) solid 5px;
+}
+
+#gradient{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 373px;
+    height: 210px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: monospace;
+    text-decoration: underline;
+    background-image: linear-gradient( to bottom right, rgb(236, 131, 236) , rgb(19, 62, 155));
+    outline: rgb(0, 0, 0) solid 5px;
+}
+ 
